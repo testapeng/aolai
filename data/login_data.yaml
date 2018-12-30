@@ -1,12 +1,12 @@
-test_login_001:
-  username: "18035762253"
-  password: "pp970823"
-  tag: 1
-
-test_login_002:
-  username: " 18035762253"
-  password: "pp970823"
-  tag: 1
+#test_login_001:
+#  username: "18035762253"
+#  password: "pp970823"
+#  tag: 1
+#
+#test_login_002:
+#  username: " 18035762253"
+#  password: "pp970823"
+#  tag: 1
 
 test_login_003:
   username: "18035762253 "
@@ -25,6 +25,6 @@ test_login_006:
 test_login_010:
   username: "111中国"
   password: "9998888"
-  except_msg: "此用户不存在"
+  except_msg: "此用户不存在111"
   get_toast_msg: "不存在"
   tag: 0

@@ -78,8 +78,8 @@ class BaseAction:
         # time为什么转成整形，因为time.time是当前系统时间，可能带小数点，
         png_name = "./screen/{}.png".format(int(time.time()))
         self.driver.get_screenshot_as_file(png_name)
-        # with open("abc.png", "rb") as f:
-    #         allure.attach("截图名字", f.read(), allure.attach_type.PNG)
+        with open(png_name, "rb") as f:
+            allure.attach("截图名字", f.read(), allure.attach_type.PNG)
 
 
 """
